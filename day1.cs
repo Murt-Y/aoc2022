@@ -13,7 +13,7 @@ namespace aoc2022
         return cals;
 
         }
-        public int [] Part1()
+        public int [] Solution()
         {
         string[] deerindex =ReadMyInput();
         int deers = deerindex.Count();

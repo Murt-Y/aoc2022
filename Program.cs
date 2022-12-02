@@ -15,11 +15,10 @@ class Program
             sw.Start();
 
             
-            var c1= new D1();
-            int [] i =c1.Part1();
+            var c1= new D2();
+            int [] i =c1.Solution();
             Console.WriteLine("The Result for Part 1 is " + i[0] + " The Result for Part 2 is " + i[1]);
-            //ulong i =c1.Part2();
-            //Console.WriteLine("The Result for Part 2 is " + i);
+
             
             sw.Stop();
 
