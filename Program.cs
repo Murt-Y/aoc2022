@@ -15,7 +15,7 @@ class Program
             sw.Start();
 
             
-            var c1= new D4();
+            var c1= new D5();
             int [] i =c1.Solution();
             Console.WriteLine("The Result for Part 1 is " + i[0] + " The Result for Part 2 is " + i[1]);
 
